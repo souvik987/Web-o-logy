@@ -222,3 +222,8 @@ h2{
 .container7{
     font-size: 20px;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        background: linear-gradient(45deg,#191825, #443C68);
+    }
+}
