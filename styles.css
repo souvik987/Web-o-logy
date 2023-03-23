@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Roboto&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 nav{
     padding: 0px 4% ;
@@ -12,7 +17,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin: 20px 20px;
+    margin: 10px 20px;
     font-size:20px;
 }
 nav ul li a{
@@ -37,7 +42,7 @@ nav ul li a:hover::after{
 .img1{
     margin-left: 20px;
     width: 40%;
-    height: 50%;
+    height: 700px;
     border-radius: 5%;
     float: left;
     margin: 0px 50px;
@@ -49,7 +54,7 @@ nav ul li a:hover::after{
     background-color: yellow;
     padding: 50px 30px;
     padding-bottom: 5em;
-
+    border-bottom: 4px dotted rgb(198, 214, 221);
 }
 .container-1{
     padding-top: 400px;
@@ -60,7 +65,33 @@ nav ul li a:hover::after{
 
 .cyberpunk{
     width: 100%;
-    height: 140vh;
+    height: 120vh;
+    border-bottom: 4px dotted rgb(198, 214, 221);
+    padding-bottom: 5em;
+
+}
+h1{
+    justify-content: right;
+    text-align:right;
+    margin: 200px 250px;
+    padding: 0;
+    animation-name:example;
+    animation-duration: 4.0s;
+    animation-iteration-count:5;
+    font-size: 60px;
+}
+@keyframes example {
+    55%   {color: rgb(35, 58, 205);}
+    75%  {color: rgb(136, 195, 220);}
+    50%  {color: rgb(34, 177, 113);}
+    100% {color: rgb(120,12,12);}
+}
+.buy{
+    color: red;
+    font-size: 30px;
+    justify-content: right;
+    text-align:right;
+    margin: 100px 250px;
 }
 /* .container-1{
     justify-content: right;
@@ -69,3 +100,125 @@ nav ul li a:hover::after{
     top: 500px;
 } */
 
+.container2{
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    border-bottom: 4px dotted rgb(244, 253, 189);
+    padding-bottom: 5em;
+}
+#game{
+    padding: 30px 20px;
+    background-color: black;
+    color: rgb(246, 245, 217);
+    border-bottom: 4px dotted rgb(244, 253, 189);
+}
+#about p{
+    font-size: 20px;
+}
+h2{
+    color: yellow;
+    font-size: 30px;
+}
+
+.video-container{
+    text-align: center;
+}
+
+#Accessories{
+    padding: 20px 30px;
+    background-color: black;
+    border-bottom: 4px dotted rgb(244, 253, 189);
+}
+#accessories{
+    display:flex;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.accessory{
+    margin: 20px 50px;
+    padding: 20px 50px;
+}
+.Acces1{
+    height:"280px";
+    width:"250px";
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 1);
+
+}
+.Acces2{
+    height:"350px";
+    width:"300px";
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.9);
+
+}
+.Acces3{
+    height:"500px";
+    width:"450px";
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.9);
+
+}
+.buy-btn{
+    color:  yellowgreen;
+}
+.container6{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-style: "Sacramento", cursive;
+    
+}
+.email{
+    color: rgb(136, 169, 19);
+}
+.email:hover{
+    color: #231f6d;
+}
+.fa {
+    padding: 20px;
+    font-size: 1000px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+.fa-github {
+    background: #0f3b1e;
+    color: white;
+  }
+.fa-instagram {
+    background: #f0f3f5;
+    color: rgb(156, 41, 112);
+}
+    #copyright{
+    font-size: 30px;
+    color: rgb(230, 103, 103);
+}
+#Contact{
+    margin: 0;
+    padding: 0;
+    color: rgb(114, 114, 14);
+   
+}
+
+.bottom-container{
+    text-align: center;
+    justify-content: center;
+}
+.container7{
+    font-size: 20px;
+}
